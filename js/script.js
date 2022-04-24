@@ -139,9 +139,13 @@
 //Циклы
 
 // console.log("11.Сформируйте строку вида '.#.#.#.#.#.' с помощью цикла for.");
-// let replayString = ".#."
-// for (let i = 0; i < 4; i++) {
-//     replayString = replayString + "#.";
+// let replayString = ""
+// for (let i = 0; i < 11; i++) {
+//     if (!(i % 2)) {
+//         replayString += ".";
+//     } else {
+//         replayString += "#";
+//     }
 // }
 // console.log(replayString);
 
